@@ -3,6 +3,8 @@ import { readItems, writeItems } from "@/lib/storage";
 import { generateId } from "@/lib/utils";
 import { Item, Category, ItemType, Priority } from "@/lib/types";
 
+export const dynamic = "force-dynamic";
+
 export async function GET() {
   const items = await readItems();
   return NextResponse.json({ items });
