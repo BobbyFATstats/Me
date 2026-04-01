@@ -24,14 +24,20 @@ async function writeToFile(items: Item[]): Promise<void> {
 // --- Vercel Blob storage (production) ---
 
 async function readFromBlob(): Promise<Item[]> {
-  const { list, head } = await import("@vercel/blob");
-  const { blobs } = await list({ prefix: BLOB_STORE_ID });
+  const { list } = await import("@vercel/blob");
+  const { blobs } = await list({ prefix: `${BLOB_STORE_ID}.json` });
 
-  if (blobs.length === 0) return [];
+  if (blobs.length === 0) {
+    // Blob store is empty — seed it from the local JSON file, then return
+    const seedItems = await readFromFile();
+    if (seedItems.length > 0) {
+      await writeToBlob(seedItems);
+      return seedItems;
+    }
+    return [];
+  }
 
-  const blob = blobs[0];
-  const metadata = await head(blob.url);
-  const res = await fetch(metadata.url);
+  const res = await fetch(blobs[0].url);
   const data = await res.json();
   return data.items;
 }
