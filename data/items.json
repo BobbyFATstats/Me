@@ -1,0 +1,92 @@
+{
+  "items": [
+    {
+      "id": "item_1711929600000_a1b2",
+      "title": "Scout Riverside Park lot - check zoning and comps",
+      "description": "2-acre parcel on Elm St. Need to verify zoning allows MHP and pull recent comparable sales.",
+      "type": "task",
+      "category": "park-acquisitions",
+      "priority": "high",
+      "status": "new",
+      "createdAt": "2026-03-30T09:00:00.000Z",
+      "updatedAt": "2026-03-30T09:00:00.000Z"
+    },
+    {
+      "id": "item_1711929600001_c3d4",
+      "title": "Build automated lead scoring for wholesale deals",
+      "description": "Create an agent that scores incoming wholesale leads based on ARV, repair estimates, and motivation level.",
+      "type": "idea",
+      "category": "wholesale",
+      "priority": "medium",
+      "status": "new",
+      "createdAt": "2026-03-29T14:30:00.000Z",
+      "updatedAt": "2026-03-29T14:30:00.000Z"
+    },
+    {
+      "id": "item_1711929600002_e5f6",
+      "title": "Fix broken contact form on acquisitions landing page",
+      "description": "Form submissions aren't going through. Sellers can't reach us.",
+      "type": "issue",
+      "category": "park-acquisitions",
+      "priority": "high",
+      "status": "in-progress",
+      "createdAt": "2026-03-28T11:00:00.000Z",
+      "updatedAt": "2026-03-31T08:00:00.000Z"
+    },
+    {
+      "id": "item_1711929600003_a7b8",
+      "title": "Plan family trip to lake house for spring break",
+      "description": "Kids are off school April 14-18. Check availability and book.",
+      "type": "event",
+      "category": "family",
+      "priority": "medium",
+      "status": "new",
+      "createdAt": "2026-03-27T19:00:00.000Z",
+      "updatedAt": "2026-03-27T19:00:00.000Z"
+    },
+    {
+      "id": "item_1711929600004_c9d0",
+      "title": "Set up Chief of Staff agent for daily briefings",
+      "description": "First personal agent — should summarize priorities, flag calendar conflicts, and suggest time blocks.",
+      "type": "idea",
+      "category": "personal",
+      "priority": "high",
+      "status": "new",
+      "createdAt": "2026-03-26T10:00:00.000Z",
+      "updatedAt": "2026-03-26T10:00:00.000Z"
+    },
+    {
+      "id": "item_1711929600005_e1f2",
+      "title": "Review due diligence docs for Oakwood MHP",
+      "description": "Seller sent financials and rent rolls. Need to verify occupancy numbers and expense ratios.",
+      "type": "task",
+      "category": "park-acquisitions",
+      "priority": "medium",
+      "status": "new",
+      "createdAt": "2026-03-25T15:00:00.000Z",
+      "updatedAt": "2026-03-25T15:00:00.000Z"
+    },
+    {
+      "id": "item_1711929600006_a3b4",
+      "title": "Follow up with 3 wholesale sellers from last week",
+      "description": "Elm St, Oak Ave, and Pine Rd properties. All showed motivation but haven't signed contracts.",
+      "type": "task",
+      "category": "wholesale",
+      "priority": "high",
+      "status": "new",
+      "createdAt": "2026-03-24T09:30:00.000Z",
+      "updatedAt": "2026-03-24T09:30:00.000Z"
+    },
+    {
+      "id": "item_1711929600007_c5d6",
+      "title": "Research AI tools for marketing automation",
+      "description": "Look into tools that can auto-generate social media content and email campaigns for the business.",
+      "type": "idea",
+      "category": "personal",
+      "priority": "low",
+      "status": "new",
+      "createdAt": "2026-03-23T20:00:00.000Z",
+      "updatedAt": "2026-03-23T20:00:00.000Z"
+    }
+  ]
+}
